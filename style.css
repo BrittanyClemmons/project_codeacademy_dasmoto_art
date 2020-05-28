@@ -1,3 +1,17 @@
+body {
+    font-family: Helvetica;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+p strong {
+    color: blue;
+}
+
 #title {
     font-family: Helvetica;
     font-size: 100px;
@@ -8,7 +22,14 @@
     opacity: 0.5
 }
 
-/* h1 {
-    background-image: url(images/pattern.jpeg);
-    opacity: 0.5
-} */
+#brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+#frames h2 {
+    background-color: lightcoral;
+}
+
+#paint h2 {
+    background-color: skyblue;
+}
